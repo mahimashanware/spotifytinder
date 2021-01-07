@@ -55,7 +55,7 @@ ROOT_URLCONF = 'playlist_creator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["playlist_creator/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
